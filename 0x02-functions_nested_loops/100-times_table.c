@@ -1,22 +1,3 @@
-
-Skip to content
-iAmG-r00t /
-alx-low_level_programming
-Public
-
-Code
-Issues 1
-Pull requests
-Actions
-Projects
-
-More
-alx-low_level_programming/0x02-functions_nested_loops/100-times_table.c
-@iAmG-r00t
-iAmG-r00t fix code logic, minor edit.. 🐙😀😭👌
-History
-1 contributor
-41 lines (35 sloc) 660 Bytes
 #include"main.h"
 
 /**
@@ -58,19 +39,4 @@ void print_times_table(int n)
 		}
 	}
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-
-    Terms
-    Privacy
-    Security
-    Status
-    Docs
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
 
