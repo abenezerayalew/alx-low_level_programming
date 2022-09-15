@@ -1,11 +1,9 @@
 /**
- * _isupper - check if c is digit
+ * main - check the code
  *
- * @c: input for digit
- *
- * Return: 1 if its digit, 0 if not
- *
-*/
+ * Return: Always 0.
+ */
+ 
 int _isdigit(int c)
 {
 	if (c >= 48 && c <= 57)
