@@ -1,12 +1,13 @@
 /**
- * mul - multiplies two integers.
+ * mul - multiplies two integers
  *
- * @a,b: input
+ * @a: first input
+ * @b: second input
  *
- * Return: 1 if is digit, 0 if not
+ * Return: return results
 */
 
-int mul(int a, int b);
+int mul(int a, int b)
 {
 	return (a * b);
 }
