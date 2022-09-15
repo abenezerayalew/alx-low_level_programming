@@ -1,9 +1,9 @@
 /**
- * _isupper - check if c is upper by usin ascii code
+ * _isupper - check if c is upper by using ascii code
  *
- * @c: input for alphabet 
+ * @c: input for alphabet
  *
- * Return: 1 if its uppercase, 0 else
+ * Return: 1 if its uppercase, 0 if not
 */
 
 int _isupper(int c)
