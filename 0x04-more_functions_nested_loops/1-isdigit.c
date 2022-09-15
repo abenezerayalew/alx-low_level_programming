@@ -4,6 +4,7 @@
  * @c: input for digit
  *
  * Return: 1 if its digit, 0 if not
+ *
 */
 
 int _isdigit(int c)
