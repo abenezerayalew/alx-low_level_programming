@@ -1,7 +1,8 @@
-#include "main.h"
+#ifndef MAIN_H
+#define MAIN_H
 
-int main(void)
-{
-    _puts("\"At the end of the day, my goal was to be the best hacker\"\n\t- Kevin Mitnick");
-    return (0);
-}
+int _putchar(char c);
+int _isupper(int c);
+void _puts(char *s);
+
+#endif /*"MAIN_H*/
