@@ -9,9 +9,9 @@
  *
  * Return: Always 0 (Succes)
  */
-int main (int argc, char *argv[])
+int main (int __attribute__((unused)) argc, char *argv[])
 {
-	
-	printf("%s\n", argc);
+	for(i = 0; i<argc;i++)
+	printf("argv[%d]=%s\n",argv[i]);
 	return (0);
 }
