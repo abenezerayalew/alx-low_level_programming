@@ -1,4 +1,4 @@
-#include "main.h"
+
 /**
  * _isalpha - checks if character is alphabetic
  *            both lowercase or uppercase
