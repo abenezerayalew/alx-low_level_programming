@@ -1,13 +1,13 @@
 #include <stdlib.h>
 
 /**
- * *_strdup - a function that duplicates a string
+ * _strdup - a function that duplicates a string
  *
  * @str: input string to duplicate
  *
  * Return: NULL if str == NULL
- *         @str
-*/
+ * @str
+ */
 char *_strdup(char *str)
 {
 	int i = 0, size = 0;
@@ -15,20 +15,16 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 		return (NULL);
-
 	/*calculate size of str*/
 	while (str[size] != '\0')
 		size++;
-
 	s = malloc(size * sizeof(*str) + 1);
 	if (s == NULL)
 		return (NULL);
-
 	while (str[i] != '\0')
 	{
 		s[i] = str[i];
 		i++;
 	}
-
 	return (s);
 }
