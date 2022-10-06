@@ -2,13 +2,14 @@
 /**
  * *_memset - fills memory with a constant byte
  * @s: pointer to put the constant
- * @b: constant 
+ * @b: constant
  * @n: max bytes to use
- * Returns:s
+ * Return: A pointer to the filled memory area
  */
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
+
 	for (i = 0; i < n; i++)
 		s[i] = b;
 	return (s);
@@ -30,7 +31,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	ptr = malloc(nmemb * size);
 	if (ptr == 0)
 		return (NULL);
-	_memset(m, 0, nmemb * size);
+	_memset(ptr, 0, nmemb * size);
 
 	return (ptr);
 }
