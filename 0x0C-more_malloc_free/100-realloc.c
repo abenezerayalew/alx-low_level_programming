@@ -53,3 +53,5 @@ else
 	}
 	return (newPtr);
 }
+	return (0);
+}
