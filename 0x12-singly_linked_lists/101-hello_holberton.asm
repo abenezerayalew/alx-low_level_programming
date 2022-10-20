@@ -41,3 +41,4 @@ main:
         .long    0x3
 3:
         .align 8
+4:
