@@ -6,7 +6,7 @@
  * @head: point to the 1st node
  * @n: new data
  *
- * REturn: the address of the new element, or NULL if it failled
+ * Return: the address of the new element, or NULL if it failled
  */
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
@@ -24,7 +24,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	}
 	new->n = n;
 	new->next = NULL;
-	
+
 	if (ptr)
 		ptr->next = new;
 	else
