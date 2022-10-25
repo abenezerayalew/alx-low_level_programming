@@ -14,10 +14,10 @@ size_t print_listint(const listint_t *h)
 	return (0);
 	while (h->next != NULL)
 	{
-		putchar(h->n);
+		/*putchar(h->n);*/
 		h = h->next;
 		count++;
 	}
-	putcharf(h->n);
+	/*putcharf(h->n);*/
 	return (count);
 }
