@@ -10,7 +10,7 @@ size_t print_listint(const listint_t *h)
 {
 	size_t count = 1;
 
-	if (h->next == NULL)
+	if (h == NULL)
 	printf("Linked List is empty :(");
 	while (h->next != NULL)
 	{
