@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * print_alphabet(void) - Entry point
+ * print_alphabet - Entry point
  *
  * Description: print_alphabet - utilizes on the _putchar function to print
  *
