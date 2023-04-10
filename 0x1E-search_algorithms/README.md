@@ -1,4 +1,5 @@
 # Search Algorithms in C
+
 ## Introduction
     Searching is a process of looking for a specific element in a list of items or determining that the item is not in the list. 
     There are two simple searching algorithms:
